@@ -13,3 +13,19 @@ class Person
     }
 
 }
+
+class Car 
+{
+    public string Name; 
+
+    public string Brand; 
+
+    public Car(string name, string brand)
+    {
+        Name = name; 
+        Brand = brand; 
+    }
+
+
+
+}
