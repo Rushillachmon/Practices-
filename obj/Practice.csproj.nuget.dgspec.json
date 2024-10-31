@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rushi\\Dropbox\\Mijn pc (LAPTOP-AM2U31O1)\\Downloads\\Practice\\Practice.csproj": {}
+    "C:\\Users\\rushi\\OneDrive\\Documenten\\GitHub\\Practices-\\Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rushi\\Dropbox\\Mijn pc (LAPTOP-AM2U31O1)\\Downloads\\Practice\\Practice.csproj": {
+    "C:\\Users\\rushi\\OneDrive\\Documenten\\GitHub\\Practices-\\Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rushi\\Dropbox\\Mijn pc (LAPTOP-AM2U31O1)\\Downloads\\Practice\\Practice.csproj",
+        "projectUniqueName": "C:\\Users\\rushi\\OneDrive\\Documenten\\GitHub\\Practices-\\Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "C:\\Users\\rushi\\Dropbox\\Mijn pc (LAPTOP-AM2U31O1)\\Downloads\\Practice\\Practice.csproj",
+        "projectPath": "C:\\Users\\rushi\\OneDrive\\Documenten\\GitHub\\Practices-\\Practice.csproj",
         "packagesPath": "C:\\Users\\rushi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rushi\\Dropbox\\Mijn pc (LAPTOP-AM2U31O1)\\Downloads\\Practice\\obj\\",
+        "outputPath": "C:\\Users\\rushi\\OneDrive\\Documenten\\GitHub\\Practices-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rushi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,12 +53,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
